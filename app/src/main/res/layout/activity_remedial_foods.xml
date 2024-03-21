@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    tools:context=".RemedialFoods">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleRemedialFoods"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="REMEDIAL FOODS"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="65dp"/>
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:src="@drawable/rem1"
+        android:scaleType="fitXY"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:src="@drawable/rem2"
+        android:scaleType="fitXY"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:src="@drawable/rem3"
+        android:scaleType="fitXY"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:src="@drawable/rem4"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:src="@drawable/rem5"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="210dp"
+        android:src="@drawable/rem6"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/art_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_bg"
+            android:text="BACK"
+            app:backgroundTint="#272727"
+            android:paddingBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/art_list" />
+
+    </LinearLayout>
+
+
+</ScrollView>
